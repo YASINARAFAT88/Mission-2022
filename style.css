@@ -75,3 +75,21 @@ font-family: 'Poppins', sans-serif;
     margin: 20px 70px;
     box-shadow: 10px 10px 20px gray;
 }
+
+
+
+.Display-flex{
+    display: flex;
+}
+.img-size{
+    width: 440px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.content-size{
+    width: 660px;
+    margin-left: 70px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
