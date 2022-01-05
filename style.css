@@ -14,7 +14,7 @@ font-family: 'Poppins', sans-serif;
     padding-top: 100px;
 }
 
-h1{
+#head{
     font-size: 50px;
     border-left:4px solid blueviolet;
     padding-left: 8px;
@@ -35,4 +35,43 @@ h1{
 .image-resize{
     width: 400px;
     padding-left: 130px;
+}
+
+
+.flex{
+    display: flex;
+}
+#center{
+    text-align: center;
+    font-size: 30px;
+}
+.purple{
+    color: purple;
+}
+.cart1{
+    width: 300px;
+    background-color: rgba(135, 207, 235, 0.548);
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 20px 70px;
+    box-shadow: 10px 10px 20px gray;
+}
+.img-logo{
+    width: 40%;
+}
+.cart2{
+    background-color: rgba(255, 255, 0, 0.541);
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 20px 70px;
+    box-shadow: 10px 10px 20px gray;
+}
+.cart3{
+    background-color: rgba(255, 166, 0, 0.575);
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 20px 70px;
+    box-shadow: 10px 10px 20px gray;
 }
