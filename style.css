@@ -136,3 +136,18 @@ margin: 0;
     font-weight: 900;
     transition: .8s;
 }
+
+
+
+#footer-head{
+    color: white;
+    font-size: 25px;
+}
+footer h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color:gray;
+    padding: 10px 200px;
+}
