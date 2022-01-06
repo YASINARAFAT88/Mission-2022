@@ -2,6 +2,9 @@ body{
     font-family: 'Bitter', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
+padding: 0;
+margin: 0;
+
 }
 
 .content-iamge{
@@ -13,7 +16,9 @@ font-family: 'Poppins', sans-serif;
     padding-left: 100px;
     padding-top: 100px;
 }
-
+#for-width{
+    width: 400px;
+}
 #head{
     font-size: 50px;
     border-left:4px solid blueviolet;
@@ -34,7 +39,7 @@ font-family: 'Poppins', sans-serif;
 }
 .image-resize{
     width: 400px;
-    padding-left: 130px;
+    padding-left: 100px;
 }
 
 
@@ -92,4 +97,42 @@ font-family: 'Poppins', sans-serif;
     margin-top: 120px;
     margin-bottom: 30px;
     padding-right: 50px;
+}
+.develop{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+}
+#re-size{
+    padding-right: 50px;
+}
+
+
+.personal{
+    width: 100%;
+    height: 500px;
+    background:url(images/bg.jpg) no-repeat center / cover ;
+    color: wheat;
+}
+.info{
+    width: 350px;
+    padding: 60px 400px;
+}
+.info p{
+    text-align: justify;
+}
+.info a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #111010;
+    background-color: #f2f0f0fc;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.info a:hover{
+    color: orangered;
+    background-color: white;
+    font-weight: 900;
+    transition: .8s;
 }
